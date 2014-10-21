@@ -7,7 +7,27 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    
+    MKMapView *mapview;
+    
+    CLLocationManager *locmanager;
+    
+    CLLocation *startLoc;
+    
+    BOOL gotlocation;
+    
+}
+
+@property (nonatomic, retain) IBOutlet MKMapView *mapview;
+
+-(IBAction)mapType:(id)sender;
+
+-(IBAction)getLocation:(id)sender;
+
+-(IBAction)alertMe:(id)sender;
 
 @end

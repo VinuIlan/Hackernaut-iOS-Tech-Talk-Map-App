@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		974D347418F075200038D4F0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 974D347318F075200038D4F0 /* MapKit.framework */; };
 		97D159BB18EB70D40007D6FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D159BA18EB70D40007D6FB /* Foundation.framework */; };
 		97D159BD18EB70D40007D6FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D159BC18EB70D40007D6FB /* CoreGraphics.framework */; };
 		97D159BF18EB70D40007D6FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D159BE18EB70D40007D6FB /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 		97D159DC18EB70D50007D6FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D159BE18EB70D40007D6FB /* UIKit.framework */; };
 		97D159E418EB70D50007D6FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97D159E218EB70D50007D6FB /* InfoPlist.strings */; };
 		97D159E618EB70D50007D6FB /* AppTwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D159E518EB70D50007D6FB /* AppTwoTests.m */; };
+		97D159F018EB70F10007D6FB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D159EF18EB70F10007D6FB /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		974D347318F075200038D4F0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		97D159B718EB70D40007D6FB /* AppTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97D159BA18EB70D40007D6FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		97D159BC18EB70D40007D6FB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +56,7 @@
 		97D159E118EB70D50007D6FB /* AppTwoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppTwoTests-Info.plist"; sourceTree = "<group>"; };
 		97D159E318EB70D50007D6FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		97D159E518EB70D50007D6FB /* AppTwoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppTwoTests.m; sourceTree = "<group>"; };
+		97D159EF18EB70F10007D6FB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				974D347418F075200038D4F0 /* MapKit.framework in Frameworks */,
+				97D159F018EB70F10007D6FB /* CoreLocation.framework in Frameworks */,
 				97D159BD18EB70D40007D6FB /* CoreGraphics.framework in Frameworks */,
 				97D159BF18EB70D40007D6FB /* UIKit.framework in Frameworks */,
 				97D159BB18EB70D40007D6FB /* Foundation.framework in Frameworks */,
@@ -101,6 +107,8 @@
 		97D159B918EB70D40007D6FB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				974D347318F075200038D4F0 /* MapKit.framework */,
+				97D159EF18EB70F10007D6FB /* CoreLocation.framework */,
 				97D159BA18EB70D40007D6FB /* Foundation.framework */,
 				97D159BC18EB70D40007D6FB /* CoreGraphics.framework */,
 				97D159BE18EB70D40007D6FB /* UIKit.framework */,
@@ -456,6 +464,7 @@
 				97D159EB18EB70D50007D6FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97D159EC18EB70D50007D6FB /* Build configuration list for PBXNativeTarget "AppTwoTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +473,7 @@
 				97D159EE18EB70D50007D6FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
